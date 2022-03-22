@@ -1,0 +1,115 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@300&display=swap');
+
+
+* {
+     padding: 0;
+     margin: 0; 
+     font-family: 'Open Sans', sans-serif;
+}
+
+.conteudo {
+     display: flex;
+     justify-content: space-around;
+     /* width: 100%; */
+    
+}
+
+
+.conteudo .cadastro {
+     width: 50%;
+     height: 100vh;
+     background-color: aquamarine;
+     
+}
+
+.conteudo .login {
+     width: 50%;
+     height: 100vh;
+     background-color: red;
+
+     
+}
+
+.conteudo .cadastro h1{
+     font-size: 5em;
+     margin-bottom: 90px;
+     text-align: center;
+}
+
+.conteudo .login h1{
+     font-size: 5em;
+     text-align: center;
+     margin-bottom: 90px;
+}
+
+/* Elemtos do form - CADASTRO*/
+
+.conteudo .cadastro .c-user{
+     font-size: 2em;
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+}
+
+.conteudo .cadastro .c-email{
+     font-size: 2em;
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+
+}
+
+.conteudo .cadastro .c-pass{
+     font-size: 2em;
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+}
+
+.conteudo .cadastro .c-button input{
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+     font-weight: 900;
+     border-radius: 20px;
+     width: 50%;
+     height: 50px;
+     display: block;
+     cursor: pointer;
+     margin: 0 auto;
+     font-size: 25px;
+
+}
+
+/* Elemtos do form - LOGIN*/
+
+.conteudo .login .l-user {
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+     font-size: 2em;
+}
+
+.conteudo .login .l-pass {
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+     font-size: 2em;
+}
+
+.conteudo .login .l-botao input {
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+     font-weight: 900;
+     border-radius: 20px;
+     width: 50%;
+     height: 50px;
+     display: block;
+     cursor: pointer;
+     margin-top: 120px;
+     margin-left: 160px;
+     font-size: 14px;
+}
+
+
+
+
+
+
+
